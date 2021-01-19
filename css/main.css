@@ -1,0 +1,477 @@
+body {
+	
+    background: url(../imgs/bg-page.jpg) repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    color: #CCCCCC;
+    font-family: 'Metamorphous', cursive;
+    margin: 0;
+    min-width: 960px;
+	padding: 0;
+}
+.background {
+	position: relative;
+	z-index: 225;
+}
+/* reglas de links */
+
+a {
+    color: #c8a000;
+	text-decoration: underline #ffcc00;
+	text-align: center;
+}
+a:hover {
+	color: #ffcc00;
+}
+/**/
+
+
+.header > div > div {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    z-index: 5;
+}
+
+.header a.logo {
+    display: block;
+    margin: 19px auto;
+	padding: 0;
+}
+
+.logoNuevo {
+	border: 0;
+	z-index: 1;
+	position:absolute;
+}
+
+/*nav*/
+.header ul {
+    bottom: -15px;
+    left: 100px;
+    overflow: hidden;
+    position: absolute;
+}
+.header ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li .menu1 {
+	background-position: 0 0;
+	width: 118px!important;
+}
+
+
+.header ul li .menu1:hover, .header ul li.selected .menu1{
+    background-position: 0 -56px;
+}
+
+.header ul li .menu2 {
+	background-position: -126px 0;
+	width: 163px!important;
+}
+
+.header ul li .menu2:hover, .header ul li.selected .menu2{
+	background-position: -126px -56px;
+	
+}
+
+.header ul li .menu3 {
+	background-position: -297px 0;
+	width: 112px!important;
+}
+
+.header ul li .menu3:hover, .header ul li.selected .menu3{
+    background-position: -297px -56px;
+}
+
+.header ul li .menu4 {
+	background-position: -417px 0;
+	width: 121px!important;
+}
+
+.header ul li .menu4:hover, .header ul li.selected .menu4{
+    background-position: -417px -56px;
+}
+
+.header ul li .menu5 {
+	background-position: -546px 0;
+	width: 70px!important;
+}
+
+.header ul li .menu5:hover, .header ul li.selected .menu5{
+    background-position: -546px -56px;
+}
+
+.header ul li .menu6 {
+	background-position: -625px 0;
+	width: 113px!important;
+}
+
+.header ul li .menu6:hover, .header ul li.selected .menu6{
+    background-position: -625px -56px;
+}
+
+.header ul li a {
+    background: url(../imgs/nmenu.png) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+    color: #a8a8a8;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.07em;
+    line-height: 47px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.header ul li  a:hover, .header ul li.selected a {
+    color: #fff;
+}
+
+/* Cuerpo */
+.cuerpo {
+	margin: 0 auto;
+    width: 960px;
+}
+
+.cuerpo p {
+	margin: 0;
+	padding: 0;
+}
+.cuerpo p a {
+	color: #797979;
+}
+.cuerpo p a:hover {
+	color: #a3a3a3;
+}
+
+
+
+.cuerpo div div .featured {
+	height: 361px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 960px;
+}
+.cuerpo div div .featured img {
+	display: block;
+	left: 0;
+	position: absolute;
+	top: -112px;
+	z-index: 1;
+}
+
+.cuerpo div div .section > div {
+	float: left;
+	margin: 0 10px;
+	padding: 0 0;
+	width: 200px;
+	background: #484d608f;
+}
+
+
+.section > div > div > div iframe{
+	width: 526px;
+	height: 313px;
+}
+
+.cuerpo div div .section > div:first-child {
+	width: 700px;
+}
+.cuerpo div div .section div .separadorIzq {
+	background: #070707;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-size: 20px;
+	line-height: 29px;
+	padding: 10px 19px;
+}
+.izq {
+	background-color: #211510!important;
+}
+.cuerpo div div .section div div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	
+}
+.cuerpo div div .section div div p a {
+	color: #727272;
+	
+}
+.cuerpo div div .section div div p a.more {
+	background: url(../imgs/bg-more.png) no-repeat center center;
+	color: #bababa;
+	display: inline-block;
+	height: 23px;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 0 0 12px;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	width: 70px;
+}
+.cuerpo div div .section div div p a:hover {
+	color: #a3a3a3;
+}
+.cuerpo div div .section div div p a.more:hover {
+	background: url(../imgs/bg-more-hover.png) no-repeat center center;
+	color: #bababa;
+}
+.cuerpo div div .section div h3 {
+	background: #070707 url(../imgs/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-family: 'Philosopher-Bold';
+	font-size: 16px;
+	font-weight: normal;
+	height: 50px;
+	letter-spacing: 0.07em;
+	line-height: 50px;
+	margin: 0 0 1px;
+	padding: 0 19px;
+	text-transform: uppercase;
+}
+.cuerpo div div .section div div a.figure {
+	border: 1px solid #22272a;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.cuerpo div div .section div div a.figure:hover {
+	opacity: 0.8;
+}
+.cuerpo div div .section div div a.figure img {
+	border: 1px solid #000;
+	display: block;
+}
+
+.cuerpo div div .section div div span a {
+	color: #a7a9ac;
+	display: block;
+	font-size: 12px;
+	line-height: 38px;
+	margin: 0;
+	padding: 0 9px;
+	text-align: center;
+	text-decoration: none;
+}
+.cuerpo div div .section div div span a:hover {
+	color: #fff;
+}
+/* show_news.php */
+.bloqueNoticia{
+	padding: 5px;
+	color: #ebdec2;
+}
+.bloqueTitulo {
+	width: 100%;
+}
+.bloqueTitulo a{
+	font-size: 1.5rem;
+}
+
+.fiNota{
+position: relative;
+height: 30px;
+width: 50%;
+background-image: url(../imgs/hr.png);
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: contain;
+background-color: transparent;
+}
+
+.llama{
+	float:left;
+	top: 1rem;
+	left: 13.7rem;
+	height: 40px;
+	position:relative;
+	transform-origin:center bottom;
+	animation-name: flicker;
+	animation-duration:3ms;
+	animation-delay:200ms;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
+  .llama2{
+	float:left;
+	top: 1rem;
+	left: 42.7rem;
+	height: 40px;
+	position:relative;
+	transform-origin:center bottom;
+	animation-name: flicker;
+	animation-duration:3ms;
+	animation-delay:200ms;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
+  
+  .flame{
+	bottom:0;
+	position:absolute;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	transform:rotate(-45deg) scale(0.5,0.5);
+  }
+  
+  .yellow{
+	left:15px; 
+	width: 30px;
+	background:gold;
+	box-shadow: 0px 0px 9px 4px gold;
+  }
+  
+  .orange{
+	left:10px;
+	height: 15px;
+	width: 40px;
+	height: 40px;
+	background:rgba(241, 117, 1, 0.164);
+	box-shadow: 0px 0px 9px 4px rgba(241, 117, 1, 0.164);
+  }
+  
+  .red{
+	top:15px;
+	left:30px;
+	height:5px;
+	width: 0;
+	background:OrangeRed;
+	box-shadow: 0px 0px 5px 4px OrangeRed;
+  }
+  
+  .white{
+	left:15px; 
+	bottom:-4px;
+	width: 30px;
+	height: 30px;
+	background:rgba(0, 0, 5, 0.004);
+	box-shadow: 0px 0px 80px 4px white;
+  }
+  
+  .circle{
+	border-radius: 150%;
+	position:absolute;  
+  }
+  
+  .blue{
+	left:33px;
+	bottom:-25px; 
+	background: SlateBlue;
+	box-shadow: 0px 0px 15px 10px SlateBlue;
+  }
+  
+  /*.black{
+	width: 40px;
+	height: 40px;
+	left:10px;
+	bottom:-60px;  
+	background: black;
+	box-shadow: 0px 0px 15px 10px black;
+  }*/
+
+  .papiro {
+	  background: url(../imgs/bg-paper.png) no-repeat!important;
+	  height: 959px;
+  }
+  
+
+  .sello {
+	  background: url(../imgs/sello.png) no-repeat;
+	  margin-left: 459px;
+	  margin-top: 174px;
+	  min-height:165px;
+  }
+
+  .sello > div {
+	  margin-top: -55px;
+	  margin-left: -55px;
+	  color:black;
+  }
+  
+  .textoPapiro {
+	color: #5c4f31;
+	font-size: 1rem;
+	margin-top: 120px;
+	margin-left: 155px;
+}
+  .textoPapiro h2{
+	font-size: 2rem;
+  }
+
+  .textoPapiro p{
+	  width: 470px;
+	  margin-top: 5rem!important;
+	  margin-left: -71px!important;
+  }
+
+  .papiro ul{
+	  margin-top: 5rem;
+	  margin-left: -85px;
+  }
+  .columnaIndice{
+	  background-color: rgba(58, 27, 3, 0.684);
+	  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  .tituloSec{
+	  min-width:130px;
+	  text-align: right;
+	  background-color:red;
+	  font-size:18px;
+  }
+  .manual{
+	  background-color: rgb(58, 27, 3);
+	  padding-bottom: 3rem;
+  }
+  .mfondo {
+	  background-color: rgb(0, 0, 0);
+	  -webkit-box-shadow: -3px -1px 40px 2px rgba(0,0,0,0.63);
+	-moz-box-shadow: -3px -1px 40px 2px rgba(0,0,0,0.63);
+	box-shadow: -3px -1px 40px 2px rgba(0,0,0,0.63);
+  }
+
+  .fondoMadera {
+	  background: url(../imgs/roleheader.png) no-repeat center;
+	  min-height: 90px;
+	  color: #663300;
+	  font-size: 20px!important;
+  }
+  .fondoMaderasmall {
+	  background: url(../imgs/roleheadersmall.png) no-repeat center;
+	  min-height: 45px;
+	  color: #663300;
+	  font-size: 16px!important;
+  }
+  .reglamentoBox{
+	  padding: 10px 10px 10px 10px;
+	  background-color: #211510;
+	  -webkit-box-shadow: 2px 3px 12px 2px rgba(0,0,0,0.79);
+	-moz-box-shadow: 2px 3px 12px 2px rgba(0,0,0,0.79);
+	box-shadow: 2px 3px 12px 2px rgba(0,0,0,0.79);
+  }
+  @keyframes flicker{
+	0%   {transform: rotate(-1deg);}
+	20%  {transform: rotate(1deg);}
+	40%  {transform: rotate(-1deg);}
+	60%  {transform: rotate(1deg) scaleY(1.04);}
+	80%  {transform: rotate(-2deg) scaleY(0.92);}
+	100% {transform: rotate(1deg);}
+  }
